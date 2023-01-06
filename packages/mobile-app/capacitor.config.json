@@ -1,0 +1,11 @@
+{
+  "appId": "com.capacitorjs.example.remote",
+  "appName": "capacitor-remote-offline-example",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+
+> capacitor-app@1.0.0 build
+> vite build
+
+vite v2.9.15 building for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+../dist/assets/favicon.155239cf.ico   99.39 KiB
+../dist/index.html                    1.45 KiB
+../dist/assets/index.4767dcad.css     0.04 KiB / gzip: 0.06 KiB
+../dist/assets/web.ad6dcd3d.js        0.22 KiB / gzip: 0.15 KiB
+../dist/assets/web.d4036f84.js        7.17 KiB / gzip: 1.80 KiB
+../dist/assets/index.b5facc45.js      24.58 KiB / gzip: 6.70 KiB
