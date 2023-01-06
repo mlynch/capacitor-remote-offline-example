@@ -3,6 +3,9 @@
   "appName": "capacitor-remote-offline-example",
   "bundledWebRuntime": false,
   "webDir": "dist",
+  "server": {
+    "url": "http://localhost:3030"
+  },
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0
