@@ -24,7 +24,6 @@ public class MainActivity extends BridgeActivity {
             public WebResourceResponse shouldInterceptRequest(WebResourceRequest request) {
                 Log.d("APP", request.getUrl().toString());
                 return bridge.getLocalServer().shouldInterceptRequest(request);
-                //return super.shouldInterceptRequest(request);
             }
         });
     }
