@@ -49,6 +49,11 @@
 	<string>Photos</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Adds</string>
+	<key>WKAppBoundDomains</key>
+	<array>
+		<string>localhost:3000</string>
+		<string>capacitor-remote-offline-example-web-app.vercel.app</string>
+	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 </dict>

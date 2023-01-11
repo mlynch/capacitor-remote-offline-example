@@ -1,6 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
+  
   "appId": "com.capacitorjs.example.remote",
   "appName": "capacitor-remote-offline-example",
   "bundledWebRuntime": false,
@@ -12,6 +13,9 @@ const config: CapacitorConfig = {
     "SplashScreen": {
       "launchShowDuration": 0
     }
+  },
+  ios: {
+    limitsNavigationsToAppBoundDomains: true
   }
 };
 
